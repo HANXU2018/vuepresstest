@@ -24,9 +24,8 @@ jobs:
       - name: Run Export
         run: |
           export TZ='Asia/Shanghai'
-          cd docs
           npm install
-          npm run build
+          npm run docs:build
 #          echo "icyfenix.cn" >> .vuepress/dist/CNAME
 
       - name: Deploy Github-Pages
