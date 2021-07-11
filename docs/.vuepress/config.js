@@ -7,5 +7,5 @@ module.exports = {
           lang: "zh-CN",
         },
     },
-    base:'/VUEPRESSTEST/'
+    base:'/vuepresstest/'
 }
